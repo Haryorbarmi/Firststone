@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 100" role="img" aria-label="FirstStone crane mark">
+  
+  <g stroke="currentColor" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+    
+    <line x1="48" y1="14" x2="48" y2="96" stroke-width="6"></line>
+    
+    <line x1="10" y1="34" x2="86" y2="34" stroke-width="6"></line>
+    
+    <line x1="48" y1="6" x2="86" y2="34" stroke-width="4"></line>
+    <line x1="48" y1="6" x2="10" y2="34" stroke-width="4"></line>
+    
+    <line x1="78" y1="34" x2="78" y2="68" stroke-width="3"></line>
+    <rect x="73" y="68" width="10" height="6" fill="currentColor" stroke="none"></rect>
+    
+    <line x1="38" y1="96" x2="58" y2="96" stroke-width="4"></line>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 140" role="img" aria-label="FirstStone Construction">
+  
+  <g font-family="Outfit, &#39;SF Pro Display&#39;, system-ui, sans-serif" font-weight="800" font-size="100" letter-spacing="-3">
+    
+    <text x="0" y="100" fill="#1B5E5E">First</text>
+    
+    <text x="232" y="100" fill="#1A1A1A">S</text>
+    
+    <text x="332" y="100" fill="#1A1A1A">one</text>
+  </g>
+
+  
+  <g stroke="#1A1A1A" fill="none" stroke-linecap="square" stroke-linejoin="miter">
+    
+    <line x1="312" y1="22" x2="312" y2="100" stroke-width="6"></line>
+    
+    <line x1="276" y1="42" x2="356" y2="42" stroke-width="6"></line>
+    
+    <line x1="312" y1="14" x2="356" y2="42" stroke-width="4"></line>
+    <line x1="312" y1="14" x2="276" y2="42" stroke-width="4"></line>
+    
+    <line x1="348" y1="42" x2="348" y2="74" stroke-width="3"></line>
+    
+    <rect x="343" y="74" width="10" height="6" fill="#1A1A1A" stroke="none"></rect>
+    
+    <line x1="312" y1="14" x2="312" y2="6" stroke-width="3"></line>
+  </g>
+</svg>

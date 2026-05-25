@@ -1,0 +1,190 @@
+/* ============================================================
+   FirstStone Construction — Design Tokens
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@font-face {
+  font-family: 'Overused Grotesk';
+  src: url('/fonts/OverusedGrotesk-VF.ttf') format('truetype-variations'),
+       url('/fonts/OverusedGrotesk-VF.ttf') format('truetype');
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --fs-teal-900: #0F3F3F;
+  --fs-teal-800: #154C4C;
+  --fs-teal-700: #1B5E5E;
+  --fs-teal-600: #237777;
+  --fs-teal-500: #2D8B8B;
+  --fs-teal-400: #4FA8A8;
+  --fs-teal-300: #86C5C5;
+  --fs-teal-200: #BFE0E0;
+  --fs-teal-100: #E5F2F2;
+  --fs-teal-050: #F2F8F8;
+
+  --fs-orange-700: #C84A1A;
+  --fs-orange-600: #E45A26;
+  --fs-orange-500: #FF6B35;
+  --fs-orange-400: #FF8A5E;
+  --fs-orange-300: #FFB08A;
+  --fs-orange-100: #FFE5D7;
+
+  --fs-black:     #1A1A1A;
+  --fs-ink-900:   #1A1A1A;
+  --fs-ink-800:   #2A2A2A;
+  --fs-ink-700:   #3D3D3D;
+  --fs-ink-600:   #525252;
+  --fs-ink-500:   #666666;
+  --fs-ink-400:   #8A8A8A;
+  --fs-ink-300:   #B5B5B5;
+  --fs-ink-200:   #D9D9D9;
+  --fs-ink-100:   #ECECEC;
+  --fs-ink-050:   #F5F5F5;
+  --fs-white:     #FFFFFF;
+
+  --fs-success:   #2E8B57;
+  --fs-warning:   #E0A82E;
+  --fs-danger:    #C8442A;
+  --fs-info:      #2D8B8B;
+
+  --color-bg:           var(--fs-white);
+  --color-bg-subtle:    var(--fs-ink-050);
+  --color-bg-muted:     var(--fs-ink-100);
+  --color-bg-inverse:   var(--fs-ink-900);
+  --color-bg-brand:     var(--fs-teal-700);
+  --color-bg-brand-soft:var(--fs-teal-050);
+  --color-bg-accent:    var(--fs-orange-500);
+
+  --color-fg:           var(--fs-ink-900);
+  --color-fg-2:         var(--fs-ink-700);
+  --color-fg-3:         var(--fs-ink-500);
+  --color-fg-4:         var(--fs-ink-400);
+  --color-fg-inverse:   var(--fs-white);
+  --color-fg-brand:     var(--fs-teal-700);
+  --color-fg-accent:    var(--fs-orange-500);
+  --color-fg-link:      var(--fs-teal-700);
+  --color-fg-link-hover:var(--fs-orange-500);
+
+  --color-border:       var(--fs-ink-200);
+  --color-border-strong:var(--fs-ink-300);
+  --color-border-subtle:var(--fs-ink-100);
+  --color-border-brand: var(--fs-teal-700);
+
+  --color-overlay:      rgba(26, 26, 26, 0.55);
+  --color-overlay-soft: rgba(26, 26, 26, 0.30);
+  --color-scrim-bottom: linear-gradient(to top, rgba(26,26,26,.85), rgba(26,26,26,0));
+
+  --font-display: 'Overused Grotesk', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --fs-hero:       96px;
+  --fs-display:    72px;
+  --fs-h1:         56px;
+  --fs-h2:         48px;
+  --fs-h3:         32px;
+  --fs-h4:         24px;
+  --fs-h5:         20px;
+  --fs-eyebrow:    14px;
+  --fs-body-lg:    18px;
+  --fs-body:       16px;
+  --fs-small:      14px;
+  --fs-micro:      12px;
+
+  --lh-tight:      1.05;
+  --lh-snug:       1.20;
+  --lh-normal:     1.45;
+  --lh-relaxed:    1.65;
+  --lh-loose:      1.80;
+
+  --ls-tightest:  -0.03em;
+  --ls-tight:     -0.02em;
+  --ls-snug:      -0.01em;
+  --ls-normal:     0;
+  --ls-wide:       0.05em;
+  --ls-widest:     0.14em;
+
+  --fw-regular:    400;
+  --fw-medium:     500;
+  --fw-semibold:   600;
+  --fw-bold:       700;
+  --fw-extrabold:  800;
+  --fw-black:      900;
+
+  --space-0:   0;
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:   16px;
+  --space-4:   24px;
+  --space-5:   32px;
+  --space-6:   48px;
+  --space-7:   64px;
+  --space-8:   96px;
+  --space-9:   128px;
+
+  --radius-none:   0;
+  --radius-xs:     2px;
+  --radius-sm:     4px;
+  --radius-md:     8px;
+  --radius-lg:     12px;
+  --radius-xl:     20px;
+  --radius-2xl:    28px;
+  --radius-pill:   999px;
+
+  --shadow-xs:  0 1px 2px rgba(26,26,26,0.06);
+  --shadow-sm:  0 2px 4px rgba(26,26,26,0.06), 0 1px 2px rgba(26,26,26,0.04);
+  --shadow-md:  0 6px 16px rgba(26,26,26,0.08), 0 2px 4px rgba(26,26,26,0.04);
+  --shadow-lg:  0 14px 32px rgba(26,26,26,0.12), 0 4px 8px rgba(26,26,26,0.06);
+  --shadow-xl:  0 24px 56px rgba(26,26,26,0.16), 0 8px 16px rgba(26,26,26,0.08);
+  --shadow-hover: 0 18px 38px rgba(27,94,94,0.18);
+  --shadow-focus: 0 0 0 3px rgba(255,107,53,0.35);
+
+  --ease-out:     cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out:  cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring:  cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-fast:     150ms;
+  --dur-base:     220ms;
+  --dur-slow:     360ms;
+  --dur-page:     520ms;
+
+  --container:    1200px;
+  --container-wide: 1440px;
+  --gutter:       24px;
+  --nav-h:        80px;
+}
+
+html { color: var(--color-fg); background: var(--color-bg); font-family: var(--font-body); }
+body {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: var(--lh-relaxed);
+  color: var(--color-fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, .h1 { font-family: var(--font-display); font-size: var(--fs-h1); font-weight: var(--fw-extrabold); line-height: var(--lh-tight); letter-spacing: var(--ls-tight); color: var(--color-fg); margin: 0; }
+h2, .h2 { font-family: var(--font-display); font-size: var(--fs-h2); font-weight: var(--fw-bold); line-height: var(--lh-snug); letter-spacing: var(--ls-tight); color: var(--color-fg); margin: 0; }
+h3, .h3 { font-family: var(--font-display); font-size: var(--fs-h3); font-weight: var(--fw-bold); line-height: var(--lh-snug); letter-spacing: var(--ls-snug); margin: 0; }
+h4, .h4 { font-family: var(--font-display); font-size: var(--fs-h4); font-weight: var(--fw-semibold); line-height: var(--lh-snug); margin: 0; }
+h5, .h5 { font-family: var(--font-display); font-size: var(--fs-h5); font-weight: var(--fw-semibold); line-height: var(--lh-snug); margin: 0; }
+
+p, .body { font-size: var(--fs-body); line-height: var(--lh-relaxed); color: var(--color-fg-2); margin: 0; }
+.small, small { font-size: var(--fs-small); line-height: var(--lh-normal); color: var(--color-fg-3); }
+code, .mono { font-family: var(--font-mono); font-size: 0.92em; }
+a { color: var(--color-fg-link); text-decoration: none; transition: color var(--dur-fast) var(--ease-out); }
+a:hover { color: var(--color-fg-link-hover); }
+
+@media (max-width: 768px) {
+  :root {
+    --fs-hero:    44px;
+    --fs-display: 40px;
+    --fs-h1:      36px;
+    --fs-h2:      32px;
+    --fs-h3:      24px;
+    --fs-h4:      20px;
+  }
+}
