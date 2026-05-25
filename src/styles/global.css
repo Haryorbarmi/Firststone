@@ -414,8 +414,20 @@ section.dark .sec-head .sub { color: rgba(255,255,255,0.6); }
 }
 .big-test .watch .play svg { width: 12px; height: 12px; }
 @media (max-width: 700px) {
-  .big-test { min-height: 480px; }
-  .big-test .bottom-actions { position: static; padding: 0 var(--space-6) var(--space-6); }
+  .big-test {
+    min-height: 540px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+  }
+  .big-test .quote { font-size: 17px; }
+  .big-test .content { padding-bottom: var(--space-3); }
+  .big-test .bottom-actions {
+    position: static;
+    padding: 0 var(--space-5) var(--space-5);
+    flex-wrap: wrap;
+    gap: 10px;
+  }
 }
 
 /* SERVICES */
